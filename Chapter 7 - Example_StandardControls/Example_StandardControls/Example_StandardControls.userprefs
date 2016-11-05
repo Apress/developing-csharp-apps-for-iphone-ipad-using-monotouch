@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../[Projects]/[CodeboxInc]/Dev/CodeboxInc/CodeboxInc.iPhone.Test/AppDelegate.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../../../../../[Projects]/[CodeboxInc]/Dev/CodeboxInc/CodeboxInc.iPhone.Test/AppDelegate.cs" Line="33" Column="57" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="CodeboxInc.Charting" expanded="True" />
+          <Node name="CodeboxInc.iPhone.Core" expanded="True">
+            <Node name="Controls" expanded="True" />
+            <Node name="Drawing" expanded="True" />
+            <Node name="UserDefaults" expanded="True" />
+          </Node>
+          <Node name="CodeboxInc.iPhone.Test" expanded="True" />
+          <Node name="CodeboxInc.Math.Aviation" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+  <MonoDevelop.Ide.ItemProperties.Example__StandardControls ctype="Properties">
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPad" SdkVersion="4.0" ctype="IPhoneSimulatorTarget" />
+  </MonoDevelop.Ide.ItemProperties.Example__StandardControls>
+</Properties>

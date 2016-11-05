@@ -1,0 +1,34 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_HelloWorld_MultipleScreens/MainScreen.xib.cs">
+    <Files>
+      <File FileName="Example_HelloWorld_MultipleScreens/MainScreen.xib.cs" Line="24" Column="4" />
+      <File FileName="Example_HelloWorld_MultipleScreens/Main.cs" Line="26" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_HelloWorld_MultipleScreens" expanded="True" selected="True">
+            <Node name="Images" expanded="True">
+              <Node name="Icons" expanded="True" />
+            </Node>
+            <Node name="HelloUniverseScreen.xib" expanded="True" />
+            <Node name="HelloWorldScreen.xib" expanded="True" />
+            <Node name="MainScreen.xib" expanded="True" />
+            <Node name="MainWindow.xib" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

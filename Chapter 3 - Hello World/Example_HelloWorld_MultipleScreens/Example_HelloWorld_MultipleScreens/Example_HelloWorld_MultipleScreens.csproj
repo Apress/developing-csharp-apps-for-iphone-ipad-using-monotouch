@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C92FE71D-B595-430C-B326-B77F5A96443A}</ProjectGuid>
+    <ProjectTypeGuids>{E613F3A2-FE9C-494F-B74E-F63BCB86FEA6};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Example_HelloWorld_MultipleScreens</RootNamespace>
+    <MainNibFile>MainWindow.nib</MainNibFile>
+    <AssemblyName>Example_HelloWorld_MultipleScreens</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <BundleIcon>Images\Icons\Apress-57x57.png</BundleIcon>
+    <MtouchMinimumOS>4.0</MtouchMinimumOS>
+    <BundleDisplayName>Hello Screens</BundleDisplayName>
+    <BundleIconHigh>Images\Icons\Apress-114x114.png</BundleIconHigh>
+    <BundleIconSpotlight>Images\Icons\Apress-29x29.png</BundleIconSpotlight>
+    <BundleIconSpotlightHigh>Images\Icons\Apress-58x58.png</BundleIconSpotlightHigh>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainWindow.xib.designer.cs">
+      <DependentUpon>MainWindow.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs" />
+    <Compile Include="MainScreen.xib.cs">
+      <DependentUpon>MainScreen.xib</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.xib.designer.cs">
+      <DependentUpon>MainScreen.xib</DependentUpon>
+    </Compile>
+    <Compile Include="HelloWorldScreen.xib.cs">
+      <DependentUpon>HelloWorldScreen.xib</DependentUpon>
+    </Compile>
+    <Compile Include="HelloWorldScreen.xib.designer.cs">
+      <DependentUpon>HelloWorldScreen.xib</DependentUpon>
+    </Compile>
+    <Compile Include="HelloUniverseScreen.xib.cs">
+      <DependentUpon>HelloUniverseScreen.xib</DependentUpon>
+    </Compile>
+    <Compile Include="HelloUniverseScreen.xib.designer.cs">
+      <DependentUpon>HelloUniverseScreen.xib</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xib" />
+    <Page Include="MainScreen.xib" />
+    <Page Include="HelloWorldScreen.xib" />
+    <Page Include="HelloUniverseScreen.xib" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="IPhone" />
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Content Include="Images\Icons\Apress-29x29.png" />
+    <Content Include="Images\Icons\Apress-50x50.png" />
+    <Content Include="Images\Icons\Apress-57x57.png" />
+    <Content Include="Images\Icons\Apress-58x58.png" />
+    <Content Include="Images\Icons\Apress-72x72.png" />
+    <Content Include="Images\Icons\Apress-114x114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Images\Icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+  </ItemGroup>
+</Project>

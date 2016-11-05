@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Tapku", "Example_Tapku\Example_Tapku.csproj", "{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Release|iPhone.Build.0 = Release|iPhone
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C8ECAC81-9A70-4417-B256-85D0B7C84ABA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Example_Tapku\Example_Tapku.csproj
+	EndGlobalSection
+EndGlobal

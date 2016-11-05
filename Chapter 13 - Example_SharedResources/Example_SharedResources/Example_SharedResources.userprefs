@@ -1,0 +1,49 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_SharedResources/Screens/iPhone/Photos/CustomCameraViewScreen.xib.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Example_SharedResources/AppDelegate.cs" Line="59" Column="103" />
+      <File FileName="Example_SharedResources/Code/NavItemGroup.cs" Line="4" Column="34" />
+      <File FileName="Example_SharedResources/Code/NavItemTableSource.cs" Line="7" Column="34" />
+      <File FileName="Example_SharedResources/Application.cs" Line="4" Column="34" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Network/ActivityIndicatorScreen.xib.cs" Line="50" Column="124" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Battery/BatteryStatusScreen.xib.cs" Line="51" Column="25" />
+      <File FileName="../Example_Keyboards/Example_Keyboards/Screens/iPhone/HomeScreen.xib.cs" Line="60" Column="1" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Network/ReachabilityScreen.xib.cs" Line="1" Column="1" />
+      <File FileName="Example_SharedResources/Code/Network/NetworkStatus.cs" Line="12" Column="3" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Contacts/ContactPickerScreen.xib.cs" Line="48" Column="3" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Photos/ImagePickerScreen.xib.cs" Line="16" Column="1" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Contacts/AddressBookScreen.xib.cs" Line="310" Column="1" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Accelerometer/XYZDataScreen.xib.cs" Line="40" Column="4" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Accelerometer/ShakeScreen.xib.cs" Line="109" Column="72" />
+      <File FileName="Example_SharedResources/Screens/iPhone/FileSystem/FileSystemInfo.xib.cs" Line="31" Column="4" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Photos/CustomCameraViewScreen.xib.cs" Line="36" Column="1" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Photos/CameraOverlayView.cs" Line="68" Column="3" />
+      <File FileName="../Example_Drawing/Example_Drawing/Screens/iPad/FlagOnScreen/View.cs" Line="132" Column="17" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Home/HomeTableViewController.cs" Line="37" Column="26" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Photos/CustomCameraViewScreen.xib.designer.cs" Line="62" Column="1" />
+      <File FileName="../Example_Drawing/Example_Drawing/Screens/iPad/FlagOnScreen/Controller.cs" Line="34" Column="1" />
+      <File FileName="Example_SharedResources/Screens/iPhone/Photos/TestCameraOverlayController.cs" Line="5" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_Drawing" expanded="True">
+            <Node name="Screens" expanded="True">
+              <Node name="iPad" expanded="True">
+                <Node name="FlagOnScreen" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+  <MonoDevelop.Ide.ItemProperties.Example__SharedResources ctype="Properties">
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPhone" SdkVersion="4.1" ctype="IPhoneSimulatorTarget" />
+  </MonoDevelop.Ide.ItemProperties.Example__SharedResources>
+</Properties>

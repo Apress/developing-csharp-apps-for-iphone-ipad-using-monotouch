@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_BackgroundExecution/AppDelegate.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Example_BackgroundExecution/AppDelegate.cs" Line="51" Column="54" />
+      <File FileName="Example_BackgroundExecution/Screens/iPhone/HomeScreen_iPhone.xib.cs" Line="58" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+  <MonoDevelop.Ide.ItemProperties.Example__BackgroundExecution ctype="Properties">
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPhone" SdkVersion="4.0" ctype="IPhoneSimulatorTarget" />
+  </MonoDevelop.Ide.ItemProperties.Example__BackgroundExecution>
+</Properties>

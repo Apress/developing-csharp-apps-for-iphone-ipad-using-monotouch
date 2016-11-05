@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Test_SplitView/Test_SplitView/AppDelegate.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../../Test_SplitView/Test_SplitView/AppDelegate.cs" Line="4" Column="21" />
+      <File FileName="../Example_SplitView/Example_SplitView/AppDelegate.cs" Line="40" Column="1" />
+      <File FileName="../../Test_SplitView/Test_SplitView/Screens/iPad/DetailView/DetailViewScreen.xib.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_ContentControls" expanded="True" selected="True">
+            <Node name="Images" expanded="True" />
+            <Node name="Screens" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+  <MonoDevelop.Ide.ItemProperties.Example__ContentControls ctype="Properties">
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPhone" SdkVersion="4.0" ctype="IPhoneSimulatorTarget" />
+  </MonoDevelop.Ide.ItemProperties.Example__ContentControls>
+</Properties>

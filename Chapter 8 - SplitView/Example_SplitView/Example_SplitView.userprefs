@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Example_CoreAnimation/Example_CoreAnimation/Screens/iPad/Home/MainSplitView.cs">
+    <Files>
+      <File FileName="../Example_CoreAnimation/Example_CoreAnimation/AppDelegate.cs" Line="29" Column="43" />
+      <File FileName="../Example_CoreAnimation/Example_CoreAnimation/Screens/iPad/Home/MainSplitView.cs" Line="23" Column="27" />
+      <File FileName="Example_SplitView/Screens/MainSplitView/MainSplitView.cs" Line="45" Column="1" />
+      <File FileName="../Example_CoreAnimation/Example_CoreAnimation/Screens/iPad/NavTable/MasterNavTableViewController.cs" Line="14" Column="35" />
+      <File FileName="Example_SplitView/AppDelegate.cs" Line="32" Column="1" />
+      <File FileName="../Example_CoreAnimation/Example_CoreAnimation/Screens/iPad/BasicUIViewAnimation/BasicUIViewAnimationScreen.xib.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_SplitView" expanded="True" selected="True">
+            <Node name="Screens" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

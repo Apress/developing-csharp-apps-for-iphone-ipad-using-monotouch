@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_3rdPartyLibs", "Example_3rdPartyLibs\Example_3rdPartyLibs.csproj", "{8EF9A284-23C2-4D9B-BA42-5577C597BD23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Debug|iPhone.Build.0 = Debug|iPhone
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Release|iPhone.Build.0 = Release|iPhone
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8EF9A284-23C2-4D9B-BA42-5577C597BD23}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Example_3rdPartyLibs\Example_3rdPartyLibs.csproj
+	EndGlobalSection
+EndGlobal

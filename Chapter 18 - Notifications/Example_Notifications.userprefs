@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_Notifications/AppDelegate.cs">
+    <Files>
+      <File FileName="../Example_CoreLocation/Example_CoreLocation/MainScreen/MainViewController.cs" Line="75" Column="1" />
+      <File FileName="Example_Notifications/AppDelegate.cs" Line="55" Column="7" />
+      <File FileName="Example_Notifications/Screens/iPhone/Home/Home_iPhone.xib.cs" Line="54" Column="65" />
+      <File FileName="Example_Notifications/Screens/iPhone/DeviceToken/GetDeviceTokenScreen.xib.cs" Line="32" Column="1" />
+      <File FileName="Example_Notifications/Application.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_Notifications" expanded="True" selected="True">
+            <Node name="Images" expanded="True" />
+            <Node name="Screens" expanded="True">
+              <Node name="iPhone" expanded="True">
+                <Node name="DeviceToken" expanded="True">
+                  <Node name="GetDeviceTokenScreen.xib" expanded="True" />
+                </Node>
+                <Node name="Home" expanded="True">
+                  <Node name="Home_iPhone.xib" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

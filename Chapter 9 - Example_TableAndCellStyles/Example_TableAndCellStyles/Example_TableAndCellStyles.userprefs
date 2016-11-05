@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_TableAndCellStyles/Screens/iPhone/Home/HomeTableViewController.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../Example_EditableTable/Example_EditableTable/Screens/HomeScreen.xib.cs" Line="49" Column="4" />
+      <File FileName="../Example_EditableTable/Example_EditableTable/Code/TableSource.cs" Line="185" Column="1" />
+      <File FileName="Example_TableAndCellStyles/Screens/iPhone/TableStyles/SimpleTableScreen.cs" Line="88" Column="1" />
+      <File FileName="Example_TableAndCellStyles/Code/TableSource.cs" Line="19" Column="13" />
+      <File FileName="Example_TableAndCellStyles/Code/TableSourceWithIndex.cs" Line="41" Column="1" />
+      <File FileName="Example_TableAndCellStyles/Screens/iPhone/TableStyles/TableWithIndexScreen.cs" Line="148" Column="1" />
+      <File FileName="Example_TableAndCellStyles/Screens/iPhone/Home/HomeTableViewController.cs" Line="43" Column="141" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

@@ -1,0 +1,61 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_Fonts/Screens/iPad/FontViewer/FontViewerScreen_iPad.xib.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../Example_ViewAndViewControllerInCode/Example_ViewAndViewControllerInCode/Screens/MainViewController.cs" Line="37" Column="6" />
+      <File FileName="../Example_ViewAndViewControllerInCode/Example_ViewAndViewControllerInCode/Screens/MainView.cs" Line="17" Column="27" />
+      <File FileName="../../../../../[Projects]/[CodeboxInc]/Dev/CodeboxInc/CodeboxInc.iPhone.Core/Controls/RoundRectangleGroupView.cs" Line="1" Column="1" />
+      <File FileName="../Example_Drawing/Example_Drawing/Application.cs" Line="4" Column="11" />
+      <File FileName="../Example_Drawing/Example_Drawing/Screens/iPad/Home/HomeScreen.xib.cs" Line="44" Column="89" />
+      <File FileName="../../Test_Drawing/Test_Drawing/Screens/Test_CurrentContext.cs" Line="1" Column="1" />
+      <File FileName="../Example_Drawing/Example_Drawing/Screens/iPad/DrawRectVsPath/Controller.cs" Line="25" Column="24" />
+      <File FileName="../Example_Drawing/Example_Drawing/Screens/iPad/DrawRectVsPath/View.cs" Line="14" Column="9" />
+      <File FileName="../../Test_Drawing/Test_Drawing/AppDelegate.cs" Line="22" Column="1" />
+      <File FileName="../Example_Drawing/Example_Drawing/AppDelegate.cs" Line="17" Column="28" />
+      <File FileName="../../../../../[Projects]/[CodeboxInc]/Dev/IKnowYouAre/IKnowYouAre/AppDelegate.cs" Line="49" Column="8" />
+      <File FileName="Example_Fonts/Screens/Universal/FontListing/FontFamiliesTableViewController.cs" Line="43" Column="10" />
+      <File FileName="Example_Fonts/AppDelegate.cs" Line="51" Column="1" />
+      <File FileName="Example_Fonts/Screens/iPad/FontViewer/FontViewerScreen_iPad.xib.cs" Line="13" Column="3" />
+      <File FileName="Example_Fonts/Screens/iPhone/FontViewer/FontViewerScreen_iPhone.xib.cs" Line="35" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_Fonts" expanded="True">
+            <Node name="Code" expanded="True" />
+            <Node name="Images" expanded="True">
+              <Node name="Icons" expanded="True" />
+            </Node>
+            <Node name="Screens" expanded="True">
+              <Node name="iPad" expanded="True">
+                <Node name="FontViewer" expanded="True">
+                  <Node name="FontViewerScreen_iPad.xib" expanded="True">
+                    <Node name="FontViewerScreen_iPad.xib.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="iPhone" expanded="True">
+                <Node name="FontViewer" expanded="True">
+                  <Node name="FontViewerScreen_iPhone.xib" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Universal" expanded="True">
+                <Node name="FontListing" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+  <MonoDevelop.Ide.ItemProperties.Example__Fonts ctype="Properties">
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPhone" SdkVersion="4.0" ctype="IPhoneSimulatorTarget" />
+  </MonoDevelop.Ide.ItemProperties.Example__Fonts>
+</Properties>

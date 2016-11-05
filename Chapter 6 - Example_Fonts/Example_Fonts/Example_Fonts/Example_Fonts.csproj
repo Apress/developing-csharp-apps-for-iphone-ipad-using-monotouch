@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0181730D-31E9-4DCA-8C52-6455A0963E1C}</ProjectGuid>
+    <ProjectTypeGuids>{E613F3A2-FE9C-494F-B74E-F63BCB86FEA6};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Example_Fonts</RootNamespace>
+    <AssemblyName>Example_Fonts</AssemblyName>
+    <MtouchSdkVersion>4.0</MtouchSdkVersion>
+    <MtouchMinimumOS>3.0</MtouchMinimumOS>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <BundleIcon>Images\Icons\Apress-57x57.png</BundleIcon>
+    <BundleIconSpotlight>Images\Icons\Apress-29x29.png</BundleIconSpotlight>
+    <SupportedDevices>IPhoneAndIPad</SupportedDevices>
+    <BundleIconIPad>Images\Icons\Apress-72x72.png</BundleIconIPad>
+    <BundleIconIPadSpotlight>Images\Icons\Apress-50x50.png</BundleIconIPadSpotlight>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>True</MtouchDebug>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>False</MtouchDebug>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>True</MtouchDebug>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>False</MtouchDebug>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchI18n />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="IPhone" />
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="DeviceType.cs" />
+    <Compile Include="Code\NavItem.cs" />
+    <Compile Include="Code\NavItemGroup.cs" />
+    <Compile Include="Code\NavItemTableSource.cs" />
+    <Compile Include="Screens\iPhone\FontViewer\FontViewerScreen_iPhone.xib.cs">
+      <DependentUpon>FontViewerScreen_iPhone.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\iPhone\FontViewer\FontViewerScreen_iPhone.xib.designer.cs">
+      <DependentUpon>FontViewerScreen_iPhone.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Universal\FontListing\FontFamiliesTableViewController.cs" />
+    <Compile Include="Screens\iPad\FontViewer\FontViewerScreen_iPad.xib.cs">
+      <DependentUpon>FontViewerScreen_iPad.xib</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\iPad\FontViewer\FontViewerScreen_iPad.xib.designer.cs">
+      <DependentUpon>FontViewerScreen_iPad.xib</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Images\Icons\" />
+    <Folder Include="Code\" />
+    <Folder Include="Screens\" />
+    <Folder Include="Screens\iPhone\" />
+    <Folder Include="Screens\" />
+    <Folder Include="Screens\iPhone\FontViewer\" />
+    <Folder Include="Screens\Universal\" />
+    <Folder Include="Screens\Universal\FontListing\" />
+    <Folder Include="Screens\Universal\" />
+    <Folder Include="Screens\iPad\" />
+    <Folder Include="Screens\iPad\FontViewer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Icons\Apress-29x29.png" />
+    <Content Include="Images\Icons\Apress-50x50.png" />
+    <Content Include="Images\Icons\Apress-57x57.png" />
+    <Content Include="Images\Icons\Apress-72x72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Screens\iPhone\FontViewer\FontViewerScreen_iPhone.xib" />
+    <Page Include="Screens\iPad\FontViewer\FontViewerScreen_iPad.xib" />
+  </ItemGroup>
+</Project>

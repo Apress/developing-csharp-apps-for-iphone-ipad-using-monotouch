@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EC86F9F-D4AE-4BFA-8936-11B3ECD60B01}</ProjectGuid>
+    <ProjectTypeGuids>{E613F3A2-FE9C-494F-B74E-F63BCB86FEA6};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Example_CoreLocation</RootNamespace>
+    <AssemblyName>Example_CoreLocation</AssemblyName>
+    <MtouchSdkVersion>4.0</MtouchSdkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <BundleDisplayName>Core Location</BundleDisplayName>
+    <BundleIcon>Images\Icons\Apress-57x57.png</BundleIcon>
+    <MtouchMinimumOS>3.0</MtouchMinimumOS>
+    <BundleIconSpotlight>Images\Icons\Apress-29x29.png</BundleIconSpotlight>
+    <BundleIconHigh>Images\Icons\Apress-114x114.png</BundleIconHigh>
+    <BundleIconSpotlightHigh>Images\Icons\Apress-58x58.png</BundleIconSpotlightHigh>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchI18n />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="IPhone" />
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="DeviceType.cs" />
+    <Compile Include="MainScreen\IMainScreen.cs" />
+    <Compile Include="MainScreen\MainViewController.cs" />
+    <Compile Include="MainScreen\MainViewController_iPad.xib.cs">
+      <DependentUpon>MainViewController_iPad.xib</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen\MainViewController_iPad.xib.designer.cs">
+      <DependentUpon>MainViewController_iPad.xib</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen\MainViewController_iPhone.xib.cs">
+      <DependentUpon>MainViewController_iPhone.xib</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen\MainViewController_iPhone.xib.designer.cs">
+      <DependentUpon>MainViewController_iPhone.xib</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Apress Icon.png" />
+    <Content Include="Images\Icons\Apress-29x29.png" />
+    <Content Include="Images\Icons\Apress-50x50.png" />
+    <Content Include="Images\Icons\Apress-57x57.png" />
+    <Content Include="Images\Icons\Apress-72x72.png" />
+    <Content Include="Images\Icons\Apress-58x58.png" />
+    <Content Include="Images\Icons\Apress-114x114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MainScreen\" />
+    <Folder Include="Images\" />
+    <Folder Include="Images\Icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainScreen\MainViewController_iPad.xib" />
+    <Page Include="MainScreen\MainViewController_iPhone.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+  </ItemGroup>
+</Project>

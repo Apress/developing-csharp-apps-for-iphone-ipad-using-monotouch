@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_Data/Screens/SQLiteNet/PeopleDatabase.cs">
+    <Files>
+      <File FileName="Example_Data/Screens/SQLiteNet/BasicOperations.cs" Line="28" Column="31" />
+      <File FileName="Example_Data/Screens/ViciCoolStorage/BasicOperations.cs" Line="86" Column="40" />
+      <File FileName="Example_Data/Screens/SQLiteNet/PeopleDatabase.cs" Line="39" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_Data" expanded="True" selected="True">
+            <Node name="Code" expanded="True">
+              <Node name="SQLiteNet" expanded="True" />
+            </Node>
+            <Node name="Images" expanded="True" />
+            <Node name="ReferencedAssemblies" expanded="True">
+              <Node name="MonoTouch" expanded="True" />
+              <Node name="ViciCoolStorage" expanded="True" />
+            </Node>
+            <Node name="Screens" expanded="True">
+              <Node name="ADONET" expanded="True" />
+              <Node name="NavTable" expanded="True" />
+              <Node name="SQLiteNet" expanded="True" />
+              <Node name="ViciCoolStorage" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

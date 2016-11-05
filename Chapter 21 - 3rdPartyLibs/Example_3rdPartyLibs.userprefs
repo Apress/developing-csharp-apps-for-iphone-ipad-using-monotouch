@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Example_Data/Example_Data/AppDelegate.cs">
+    <Files>
+      <File FileName="../Example_Data/Example_Data/AppDelegate.cs" Line="34" Column="6" />
+      <File FileName="../Example_Tapku/Example_Tapku/Application.cs" Line="21" Column="1" />
+      <File FileName="../Example_Tapku/Example_Tapku/AppDelegate.cs" Line="45" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_3rdPartyLibs" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_AppSettings", "Example_AppSettings\Example_AppSettings.csproj", "{38A46D6E-AD2D-48AF-8A2F-434E392C3472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Debug|iPhone.Build.0 = Debug|iPhone
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Release|iPhone.ActiveCfg = Release|iPhone
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Release|iPhone.Build.0 = Release|iPhone
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{38A46D6E-AD2D-48AF-8A2F-434E392C3472}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Example_AppSettings\Example_AppSettings.csproj
+	EndGlobalSection
+EndGlobal

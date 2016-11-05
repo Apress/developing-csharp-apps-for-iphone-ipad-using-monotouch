@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Example_Keyboards/Screens/iPhone/HomeScreen.xib.cs">
+    <Files>
+      <File FileName="Example_Keyboards/Screens/iPhone/HomeScreen.xib.cs" Line="81" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Example_Keyboards" expanded="True">
+            <Node name="Screens" expanded="True">
+              <Node name="iPhone" expanded="True">
+                <Node name="HomeScreen.xib" expanded="True">
+                  <Node name="HomeScreen.xib.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Example__Keyboards>
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPhone" SdkVersion="4.0" />
+  </MonoDevelop.Ide.ItemProperties.Example__Keyboards>
+</Properties>
